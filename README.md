@@ -33,8 +33,7 @@ PDF.js version:
 
 Start terminal-browser with:
 
-    terminal-browser open 'https://moodle.upm.es/' \
-      --main-script="$HOME/.config/terminal-browser/pdfjs-main.cjs"
+    terminal-browser --main-script="$HOME/.config/terminal-browser/pdfjs-main.cjs"
 
 The script intercepts PDFs and displays them through the local PDF.js viewer.
 
